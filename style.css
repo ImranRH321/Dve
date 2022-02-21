@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&family=Open+Sans:ital@1&family=Poppins:ital,wght@0,200;0,300;0,500;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+
+img {
+    width: 71%;
+    border-radius: 20px;
+}
+
+section > h1 {
+    font-size:  40px;
+}
+
+section{
+    margin: 130px 0;
+}
+
+.devoloper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin-top: 30px;
+}
+
+.dev_left {
+    /* border: 1px solid red; */
+    margin-right: 91px;
+    width: 40%;
+    margin: 0 auto;
+    border-right: 2px solid #0000FF;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px; 
+    padding: 20px;
+    margin: 0 20 20px  0px;
+    border-bottom: 1px solid green;
+}
+
+.dev_right {
+   /* border: 1px solid red; */
+   margin-left: 91px;
+   
+   border-top: 1px solid green;
+   border-bottom: 1px solid green;
+   width: 40%;
+   margin: 0 auto;
+   /* border-left: 2px solid green; */
+   box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px; 
+   padding: 20px;
+   margin: 20px 20 20px  0px;
+}
+
+footer p {
+    text-align: center;
+    color: midnightblue;
+    background: forestgreen;
+    padding: 6px;
+    width: 50%;
+    margin-left: 262px;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .devoloper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center; 
+        margin-top: 0;
+    }
+    img{
+        width: 100%;
+    }
+
+    .dev_right {
+        /* border: 1px solid red; */
+        margin-left: 91px;
+        
+        border-top: 1px solid green;
+        border-bottom: 1px solid green;
+        width: 100%;
+        margin: 0 auto;
+        /* border-left: 2px solid green; */
+        box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px; 
+        padding: 20px;
+        margin: 20px 20 20px  0px;
+     }
+     .dev_left {
+        /* border: 1px solid red; */
+        margin-left: 91px;
+        
+        border-top: 1px solid green;
+        border-bottom: 1px solid green;
+        width: 100%;
+        margin: 0 auto;
+        /* border-left: 2px solid green; */
+        box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px; 
+        padding: 20px;
+        margin: 20px 20 20px  0px;
+     }
+     footer > p {
+        text-align: center;
+        color: midnightblue;
+        background: forestgreen;
+        margin: auto;
+        border-radius: 10px;
+    }
+     
+  }
